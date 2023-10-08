@@ -1,19 +1,21 @@
 let god = 'mysterious';
 let love;
-let sisterBoyd = new Function () { 
-    console.log('I had got my pieces wrong / I had given my peace for pain);
-};
+function sisterBoyd() { 
+    console.log(`I had got my pieces wrong / I had given my peace for pain`);
+}
 if (god === 'mysterious') {
     love = 'the puzzle I spread';
     love.concat('my lips before');
-    let corners = {
-        edge1: 'sharp',
-        edge2: 'spilled',
-        edge3: 'begged',
-        edge4: 'ached'
-    };
-  let remade = ['a box of corners and', 'to have my edges', 'dulled.', 'to be remade'];
 }
+let edges = [
+    {
+        edge1: ' sharp',
+        edge2: ' spilled',
+        edge3: ' begged',
+        edge4: 'ached '
+    }
+];
+let remade = ['a box of corners and', 'to have my edges', 'dulled.', 'to be remade'];
 
 sisterBoyd();
 
@@ -21,7 +23,23 @@ let thePhone = '';
 thePhone = '';
 thePhone = 'my hunger';
 
-let dull = TODO: apply remade items to corners verbs;
+// let dull = TODO: apply remade items to corners verbs;
+
+let corners = Object.values(edges[0]);
+
+
+for (var i=0; i < corners.length; i++) {
+    if (i < corners.length - 1) {
+        console.log(remade[i].concat(corners[i]));
+    } else {
+        console.log(`${corners[i]}${remade[i]}`);
+    }
+}
+
+// STOPPED HERE - 10/7/23
+console.log(corners.map(edge => remade.map(self => self.concat(edge))));
+
+// const cleverName = remade.map(self => self.dull());
 
 for (var edge of corners) {
     edge.dull();
