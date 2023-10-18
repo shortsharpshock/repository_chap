@@ -1,12 +1,24 @@
 let god = 'mysterious';
 let love;
+let forgiveness;
+
+if (god === 'mysterious') {
+    love = 'the puzzle I spread /';
+    love += ' my lips before';
+}
 function sisterBoyd() { 
+    let thePhone = '';
+    thePhone = '';
+    thePhone = 'my hunger';
+    console.log(`if god is ${god} / love was ${love}`);
+    love = 'i called you / ';
+    love += `i came to the phone / confessing / ${thePhone} /`;
+    console.log(love);
     console.log(`I had got my pieces wrong / I had given my peace for pain`);
 }
-if (god === 'mysterious') {
-    love = 'the puzzle I spread';
-    love.concat('my lips before');
-}
+
+sisterBoyd();
+
 let edges = [
     {
         edge1: ' sharp',
@@ -15,60 +27,65 @@ let edges = [
         edge4: 'ached '
     }
 ];
-let remade = ['a box of corners and', 'to have my edges', 'dulled.', 'to be remade'];
-
-sisterBoyd();
-
-let thePhone = '';
-thePhone = '';
-thePhone = 'my hunger';
-
-// let dull = TODO: apply remade items to corners verbs;
+let remade = ['a box of corners and', 'to have my edges', 'dulled.', 'to be remade.'];
 
 let corners = Object.values(edges[0]);
 
-
-for (var i=0; i < corners.length; i++) {
-    if (i < corners.length - 1) {
-        console.log(remade[i].concat(corners[i]));
-    } else {
-        console.log(`${corners[i]}${remade[i]}`);
+remade.forEach((el, index) => {
+    if (index < 1) {
+        console.log(`i${corners[index+1]} / ${el}${corners[index+2]}`);
     }
-}
-
-// STOPPED HERE - 10/7/23
-console.log(corners.map(edge => remade.map(self => self.concat(edge))));
-
-// const cleverName = remade.map(self => self.dull());
-
-for (var edge of corners) {
-    edge.dull();
-}
+    if (index === 1) {
+        console.log(`${el}`);
+    }
+    if (index === 2) {
+        console.log(`${el}`);
+    }
+    if (index === 3) {
+        console.log(`i ${corners[index]}${el}`);
+    }
+});
 
 let whenYouDie = [`no one will tell me`,`I'll throw my innards on a mat`];
 
-let iKnowYou = ['loved me in your way', 'wanted to hold me down', 'dyed your hair jet black until suddenly white'];
+let iKnowYou = ['loved me in your way', 'wanted to hold me down', 'dyed your hair jet black until suddenly / white'];
 
-if (forgiveness.is(iKnowYou)) {
-    return true;
+forgiveness = iKnowYou;
+
+if (forgiveness == iKnowYou) {
+    whenYouDie.forEach((ending) => {
+        console.log(`when you die ${ending}`);
+    });
 }
 
+iKnowYou.forEach((truth, index) => {
+    console.log(`i know you ${truth} /`);
+});
+
+console.log('is forgiveness like that?');
+love = 'a puzzle';
 god = love;
-love = 'a puzzle'; 
 
 let myFingers = 'greasy';
-let composite = ['soiled'];
+let composite = ['soil'];
 
-const time = ['to hang it up', 'standing between the me you knew', 'and the you', 'you are'];
 
-const you = 'the frame I knew myself in contrast to';
-
-for (var i=0; i < time.length-3; i++) {
-    console.log(`i think it's time ${time[I]}`);
+if (god == love) {
+    console.log(`if god is ${love} / my fingers are ${myFingers} / i ${composite[0]} the composite`);
 }
 
-for (var u=2; u < time.length; u++) {
-    console.log(time[u]);
-}
+const time = ['/ to hang it up', 'standing / between the me you knew', 'and the you', 'you are'];
 
+const you = 'the frame / I knew myself / in contrast to';
+
+time.forEach((u, i) => {
+    if (i < 2) {
+        console.log(`i think it's time ${u}`);
+    } 
+    if (i >= 2) {
+        console.log(`${u} /`);
+    }
+});
+
+console.log(`you are ${you}`);
 console.log(`I wanted you / to love me / and you threw an empty box / at my feet.`);
