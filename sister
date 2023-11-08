@@ -1,8 +1,49 @@
+Neka = function(){
+	const unshun = new Promise(resolve, reject) => {
+		resolve('you know, you vowed never to')
+		reject('the place that starved the sister out of us')
+	};
+	
+	let data = 'your number';
+	
+	unshun
+		.then((vow) => (`${vow} shun me when we last spoke`)}
+		.then((vow) => (`${vow} eight years ago`)
+		.then((vow) => (`${vow} I'm only half a chapel`)
+		.then((vow) => (`${vow} without you`);
+	
+	let googleYou = `I memorized ${data} from a generic people search.`
+	console.log(`You know, ${googleYou} every so often.`);
+	
+	let adjacentOnes = `hope`;
+	let twinPews = `your sons`;
+	twinPews += adjacentOnes;
+	
+	let god = {
+		taken: `I want the god they took from us, Neka.`,
+		capital: `I want the god I can capitalize.`,
+		nodding: `nodding her head like your husband`,
+	};
+	
+	console.log(god.taken, god.capital, `there's a cop at this poetry reading, Neka, `, `${god.nodding} would've, off-duty`);
+	
+	god[nodding] = `the film that made him love film`;
+	god[film] = `captures everything and they reduced him to a megachurch play`;
+	god[hand] = `a grieving hand and they want to hold you like they hold me now.`;
+	
+	console.log(`there are men dangling windowless churches full of half-built children.`);
+	
+	let praise = `you are still`;
+	praise += `you are still the song my throat remembers`;
+}
+
+
 You know, you vowed to never shun me when we last spoke, 
 eight years ago. 
 I am scared, you know, to go back to the place that starved the sister out of us.
 I'm only half a chapel without you. 
-You know, I memorized your number from a generic people search.
+You know, I memorized your number 
+from a generic people search.
 I Google you, every so often. 
 I hope your sons get to be twin pews, or at least adjacent ones.
 I want the god they took from us, Neka.
