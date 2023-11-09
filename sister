@@ -1,19 +1,23 @@
-Neka = function(){
-	const unshun = new Promise(resolve, reject) => {
-		resolve('you know, you vowed never to')
-		reject('the place that starved the sister out of us')
-	};
-	
+// midmorning with empty strings
+
+const unshun = new Promise((resolve, reject) => {
+	resolve('You know, you vowed never to')
+	reject('the place that starved the sister out of us')
+});
+
+function Neka() {
 	let data = 'your number';
-	
+
+	unshun.reject();
 	unshun
-		.then((vow) => (`${vow} shun me when we last spoke`)}
-		.then((vow) => (`${vow} eight years ago`)
-		.then((vow) => (`${vow} I'm only half a chapel`)
-		.then((vow) => (`${vow} without you`);
+		.then((vow) => `${vow} shun me when we last spoke`)
+		.then((vow) => `${vow} eight years ago.`)
+		.then((vow) => `${vow} I'm only half a chapel`)
+		.then((vow) => `${vow} without you.`)
+		.then((vow) => console.log(vow));
 	
-	let googleYou = `I memorized ${data} from a generic people search.`
-	console.log(`You know, ${googleYou} every so often.`);
+	let googleYou = `I memorized ${data} from a generic people search`;
+	console.log(`You know, ${googleYou}. My fingers know you in keystrokes.`);
 	
 	let adjacentOnes = `hope`;
 	let twinPews = `your sons`;
@@ -25,17 +29,27 @@ Neka = function(){
 		nodding: `nodding her head like your husband`,
 	};
 	
-	console.log(god.taken, god.capital, `there's a cop at this poetry reading, Neka, `, `${god.nodding} would've, off-duty`);
+	console.log(god.taken, god.capital, `There's a cop at this poetry reading, Neka, `, `${god.nodding} would've, off-duty, watching`);
 	
-	god[nodding] = `the film that made him love film`;
-	god[film] = `captures everything and they reduced him to a megachurch play`;
-	god[hand] = `a grieving hand and they want to hold you like they hold me now.`;
+	god['nodding'] = `the film that made him love film`;
+	god['film'] = `captures everything and they reduced him to a megachurch play`;
+	god['hand'] = `a grieving hand and they want to hold you like they hold me now.`;
 	
-	console.log(`there are men dangling windowless churches full of half-built children.`);
+	console.log(`${god.nodding}. god is a ${Object.keys(god)[3]} that ${Object.values(god)[3]}.`);
+	console.log(`god is ${god.hand}`);
+	console.log(`There are men who will emaciate divinity.`);
+	console.log(`These men dangle windowless churches full of half-built children.`);
 	
-	let praise = `you are still`;
-	praise += `you are still the song my throat remembers`;
+	function praise() {
+		chant = `you are still `;
+		console.log(chant);
+		console.log(chant);
+		chant += `the song my throat remembers`;
+		console.log(chant);
+	}	
+	praise() 
 }
+Neka()
 
 
 You know, you vowed to never shun me when we last spoke, 
