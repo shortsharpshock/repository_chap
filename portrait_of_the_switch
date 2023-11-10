@@ -5,13 +5,18 @@ let yearsOut = yearExited - yearEntered;
 let surrender; 
 switch(yearsOut) {
     case 1: 
+        surrender += `no, I was not a safe person to love`
+        break;
     case 2: 
+        surrender += `i  
     case 3:
-        surrender += `I conflate "can't" and "won't" 
+        surrender += `I conflate "can't" and "won't"` 
         break;
     case 4, case 5, case 6:
         break;
     case 7, case 8:
+        surrender += `i  would have told you to ask better questions.`
+        surrender += ``
         break;
     case >8:
         break;
