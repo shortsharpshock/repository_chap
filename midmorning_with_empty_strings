@@ -1,5 +1,70 @@
-// midmorning_with_empty_strings
+// midmorning with empty strings
 
-we been had 
+const unshun = new Promise((resolve, reject) => {
+	resolve('You know, you vowed never to')
+	reject('I can’t return to the place that starved the sister out of us.')
+});
 
-dead kids with our crispix
+function newPersonality(name) {
+      var oldPersonality =['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'," ", "-", "_", ".", "&","?", "!", "@", "#", "/"];
+    
+      var hateWhatIsBad = ['N','O','P','Q','R','S','T','U','V','W','X','Y','Z','A','B','C','D','E','F','G','H','I','J','K','L','M', " ", "-", "_", ".", "&","?", "!", "@", "#", "/"];
+    
+      var pummelMyBody = [];
+      name = name.toUpperCase();
+      for (let i=0; i < name.length; i++) {
+          for (let j=0; j < oldPersonality.length; j++) {
+              if (name[i] === oldPersonality[j]){
+                  pummelMyBody.push(hateWhatIsBad[j]);
+              }
+          }
+      }
+      return pummelMyBody.join('');
+}
+
+function cycle() {
+      var sibling = newPersonality('Neka'); 
+	let data = 'your number';
+	
+	unshun
+		.then((vow) => `${vow} shun me when we last spoke`)
+		.then((vow) => `${vow} eight years ago.`)
+		.then((vow) => `${vow} I'm only half a chapel`)
+		.then((vow) => `${vow} without you.`)
+		.then((vow) => console.log(vow));
+	
+	let googleYou = `I memorized ${data} from a generic people search`;
+	console.log(`You know, ${googleYou}. My fingers know you in keystrokes.`);
+	
+	let adjacentOnes = `hope`;
+	let twinPews = `your sons`;
+	twinPews += adjacentOnes;
+
+	let god = {
+		taken: `I want the god they took from us, ${sibling}.`,
+		diminutive: `I want the god I can capitalize.`,
+		nodding: `nodding her head like your husband`,
+	};
+	
+	console.log(god.taken, god.diminuti, `There's a cop at this poetry reading, ${sibling}, `, `${god.nodding} would've, off-duty, watching`);
+	
+	god['nodding'] = `the film that made him love film`;
+	god['film'] = `captures everything and they reduced him to a megachurch play`;
+	god['hand'] = `a grieving hand and they want to hold you like they hold me now.`;
+	
+	console.log(`${god.nodding}. God is a ${Object.keys(god)[3]} that ${Object.values(god)[3]}.`);
+	console.log(`God is ${god.hand}`);
+	console.log(`There are men who will emaciate divinity.`);
+	console.log(`These men dangle windowless churches full of half-built children.`);
+      console.log(`I hope they are not yours.`);
+	
+	function bloodguilt() {
+           var chant = `${sibling} you are still `;
+		console.log(chant);
+		console.log(chant);
+		chant += `the song my throat remembers`;
+		console.log(chant);
+	}	
+	bloodguilt() 
+}
+cycle()
